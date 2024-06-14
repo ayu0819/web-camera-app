@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/web-camera-app/static/css/main.3a97344a.css",
-    "main.js": "/web-camera-app/static/js/main.bae4df0e.js",
+    "main.css": "/web-camera-app/static/css/main.8b29c695.css",
+    "main.js": "/web-camera-app/static/js/main.82b8b7ba.js",
     "static/js/453.00916745.chunk.js": "/web-camera-app/static/js/453.00916745.chunk.js",
+    "static/media/gigatama-tan-2024.png": "/web-camera-app/static/media/gigatama-tan-2024.27d923668bcc2455756c.png",
     "index.html": "/web-camera-app/index.html",
-    "main.3a97344a.css.map": "/web-camera-app/static/css/main.3a97344a.css.map",
-    "main.bae4df0e.js.map": "/web-camera-app/static/js/main.bae4df0e.js.map",
+    "main.8b29c695.css.map": "/web-camera-app/static/css/main.8b29c695.css.map",
+    "main.82b8b7ba.js.map": "/web-camera-app/static/js/main.82b8b7ba.js.map",
     "453.00916745.chunk.js.map": "/web-camera-app/static/js/453.00916745.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a97344a.css",
-    "static/js/main.bae4df0e.js"
+    "static/css/main.8b29c695.css",
+    "static/js/main.82b8b7ba.js"
   ]
 }
