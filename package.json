@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -r https://ayu0819.github.io/web-camera-app.git",
     "clean": "gh-pages-clean",
     "start": "react-scripts start",
     "build": "react-scripts build",
