@@ -7,35 +7,40 @@ button {
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
   border: solid 2px rgb(184, 122, 247);
+  cursor: pointer;
+  svg {
+    font-size: 4rem;
+    color: rgb(184, 122, 247);
+  }
+}
+
+.-active {
+  background: rgb(226, 198, 255);;
 }
 
 .webcam-container {
-  width: 100%; /* 親要素の幅に合わせてレスポンシブに調整 */
-  max-width: 100%; /* 必要に応じて最大幅を設定 */
-  overflow: hidden; /* 要素のオーバーフローを制御（必要に応じて） */
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
   height: 100vh;
 }
 
 .camera-button {
   position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  cursor: pointer;
-  svg {
-    font-size: 2.5rem;
-    color: rgb(184, 122, 247);
-  }
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .button-area {
   position: absolute;
-  top: 50%; /* 上端を画面の50%に設定 */
-  left: 50%; /* 左端を画面の50%に設定 */
-  transform: translate(-50%, -50%); /* 中央揃え */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .button-area button:not(:first-of-type) {
@@ -51,4 +56,35 @@ button {
   color: #fff;
   padding: 1rem;
   font-weight: bold;
+}
+
+.main-image {
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  right: -50px;
+}
+
+.-beside {
+  right: -50px;
+}
+
+.-vertical {
+  right: -210px;
+}
+
+.button-group {
+  position: fixed;
+  left: 0.5rem;
+  bottom: 0.5rem;
+}
+
+.button-group button:not(:first-of-type) {
+  margin-top: 0.5rem;
+}
+
+.toggle-button {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
 }
